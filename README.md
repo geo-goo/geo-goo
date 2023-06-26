@@ -14,3 +14,5 @@ covered fields :
 - Web Design
 - App design
 - Machine learning
+
+If you want to cooperate with me to develop a project, I welcome it.
