@@ -16,3 +16,9 @@ covered fields :
 - Machine learning
 
 If you want to cooperate with me to develop a project, I welcome it.
+
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=geo-goo&layout=compact" alt="geo" /></p>
+
+[![geo GitHub stats](https://github-readme-stats.vercel.app/api?username=geo-goo\&rank_icon=github)](https://github.com/anuraghazra/github-readme-stats)
+
+
