@@ -6,14 +6,15 @@ major : Financial Engineering and Data Science
 
 covered fields :
 
-- Web Crawler
 - Data visualization
 - Quantitative trading robot
 - Information security
 - Text mining
+- Web Crawler
 - Web Design
 - App design
 - Machine learning
+- Opt
 
 If you want to cooperate with me to develop a project, I welcome it.
 
