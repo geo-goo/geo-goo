@@ -1,6 +1,6 @@
 author : geo
 
-email : boonhong565059@gmail.com
+email : boonhong56789@gmail.com
 
 major : Financial Engineering and Data Science
 
