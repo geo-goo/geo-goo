@@ -10,29 +10,35 @@ covered fields :
 - quantitative trading robot
 - information security
 - text mining
-- web Crawler
-- web Design
-- app design
+- web scraping
+- web development
+- app development
 - machine learning
-- opt
+- optimization
 
 if you want to cooperate with me to develop a project, i welcome it.
 
 - python component ( sort by last updated ) :
+    - text-filter : create a simple search base on re.
+    - libreoffice_tools : interact with libreoffice.
+    - app-bot-for-flask : a simple flask framework for web page interaction.
+    - optimization : study notes of optimization theory and repository of related programs.
+    - market-sentiment : sentiment analysis based on text to calculate market sentiment score.
+    - web-scrap-for-crypto-news : design a web crawler to collect data from bitcoin news.
+    - spam-filter : spam filtering.
+    - binance-bot : machine learning strategies via binance exchange.
 
-    - binance-bot : Machine Learning Strategies via Binance Exchange.
+    
 
-    - spam-filter : Spam filtering.
+    
 
-    - web-scrap-for-crypto-news : Design a web crawler to collect data from Bitcoin News.
+   
 
-    - market-sentiment : Sentiment analysis based on text to calculate market sentiment score.
+    
 
-    - optimization : Study Notes of Optimization Theory and Repository of Related Programs.
+    
 
-    - app-bot-for-flask : A simple flask framework for web page interaction.
-
-    - libreoffice_tools : 
+    
 
 <p><img align="left" width='350' height='195' src="https://github-readme-stats.vercel.app/api/top-langs/?username=geo-goo&layout=compact" alt="geo" /></p>
 
