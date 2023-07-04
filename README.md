@@ -1,4 +1,4 @@
-author : geo
+author : geo / geomuse
 
 email : boonhong56789@gmail.com
 
@@ -29,18 +29,6 @@ if you want to cooperate with me to develop a project, i welcome it.
     - spam-filter : spam filtering.
     - binance-bot : machine learning strategies via binance exchange.
 
-    
+<p><img align="left" width='350' height='195' src="https://github-readme-stats.vercel.app/api/top-langs/?username=geomuse&layout=compact" alt="geo" /></p>
 
-    
-
-   
-
-    
-
-    
-
-    
-
-<p><img align="left" width='350' height='195' src="https://github-readme-stats.vercel.app/api/top-langs/?username=geo-goo&layout=compact" alt="geo" /></p>
-
-<img align='left'>![geo GitHub stats](https://github-readme-stats.vercel.app/api?username=geo-goo\&rank_icon=github)</img>
+<img align='left'>![geo GitHub stats](https://github-readme-stats.vercel.app/api?username=geomuse\&rank_icon=github)</img>
