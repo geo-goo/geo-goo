@@ -31,6 +31,6 @@ if you want to cooperate with me to develop a project, i welcome it.
  
 # github stats
 
-<p><img align="left" width='350' height='195' src="https://github-readme-stats.vercel.app/api/top-langs/?username=geomuse&count_private=true&show_icons=true&layout=compact" alt="geo" /></p>
+<p><img align="left" width='300' height='195' src="https://github-readme-stats.vercel.app/api/top-langs/?username=geomuse&count_private=true&show_icons=true&layout=compact" alt="geo" /></p>
 
 <img align='left'>![geo GitHub stats](https://github-readme-stats.vercel.app/api?username=geomuse\&count_private=true&show_icons=true&rank_icon=github)</img>
