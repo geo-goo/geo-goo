@@ -1,6 +1,6 @@
 **author : geo / geomuse**
 
-email : boonhong56789@gmail.com
+email : ******************
 
 major : Financial Engineering and Data Science
 
@@ -19,9 +19,10 @@ major : Financial Engineering and Data Science
 if you want to cooperate with me to develop a project, i welcome it.
 
 - python component ( sort by last updated ) :
+    - numeric-analysis : study notes of numeric-analysis and repository of related programs.
     - anti-web-scrap : anti web crawler technology.
     - text-filter : create a simple search base on re.
-    - libreoffice_tools : interact with libreoffice.
+    - libreoffice-tools : interact with libreoffice.
     - app-bot-for-flask : a simple flask framework for web page interaction.
     - optimization : study notes of optimization theory and repository of related programs.
     - market-sentiment : sentiment analysis based on text to calculate market sentiment score.
@@ -31,6 +32,6 @@ if you want to cooperate with me to develop a project, i welcome it.
  
 # github stats
 
-<p><img align="left" width='300' height='195' src="https://github-readme-stats.vercel.app/api/top-langs/?username=geomuse&count_private=true&show_icons=true&layout=compact" alt="geo" /></p>
+<p><img align="left" width='350' height='195' src="https://github-readme-stats.vercel.app/api/top-langs/?username=geomuse&count_private=true&show_icons=true&layout=compact" alt="geo"/></p>
 
 <img align='left'>![geo GitHub stats](https://github-readme-stats.vercel.app/api?username=geomuse\&count_private=true&show_icons=true&rank_icon=github)</img>
