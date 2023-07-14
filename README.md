@@ -4,7 +4,7 @@ email : ******************
 
 major : Financial Engineering and Data Science
 
-# covered fields 
+# involves fields 
 
 - data visualization
 - quantitative trading robot
