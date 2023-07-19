@@ -1,7 +1,5 @@
 **author : geo / geomuse**
 
-email : ******************
-
 major : Financial Engineering and Data Science
 
 # involves fields 
