@@ -1,8 +1,8 @@
-**author : geo / geomuse**
+**author : geo | geomuse**
 
 major : Financial Engineering and Data Science
 
-# involves fields 
+# fields 
 
 - data visualization
 - quantitative trading robot
@@ -17,8 +17,11 @@ major : Financial Engineering and Data Science
 if you want to cooperate with me to develop a project, i welcome it.
 
 - python component ( sort by last updated ) :
+    - snake : ...
+    - app-for-job-framework : ...
+    - temp-email : ...
     - numeric-analysis : study notes of numeric-analysis and repository of related programs.
-    - anti-web-scrap : anti web crawler technology.
+    - monitor-data-collection-bot : anti web crawler technology.
     - text-filter : create a simple search base on re.
     - libreoffice-tools : interact with libreoffice.
     - app-bot-for-flask : a simple flask framework for web page interaction.
