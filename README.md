@@ -1,24 +1,11 @@
 **author : geo | geomuse**
 
-major : Financial Engineering and Data Science
+major : Financial Engineering | Data Science
 
-# fields 
-
-- data visualization
-- quantitative trading robot
-- information security
-- text mining
-- web scraping
-- web development
-- app development
-- machine learning
-- optimization
-
-if you want to cooperate with me to develop a project, i welcome it.
+# public
 
 - python component ( sort by last updated ) :
     - snake : ...
-    - app-for-job-framework : ...
     - temp-email : ...
     - numeric-analysis : study notes of numeric-analysis and repository of related programs.
     - monitor-data-collection-bot : anti web crawler technology.
