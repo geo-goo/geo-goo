@@ -5,18 +5,18 @@ major : Financial Engineering | Data Science
 # public
 
 - python component ( sort by last updated ) :
-    - snake : ...
-    - temp-email : ...
-    - numeric-analysis : study notes of numeric-analysis and repository of related programs.
-    - monitor-data-collection-bot : anti web crawler technology.
-    - text-filter : create a simple search base on re.
-    - libreoffice-tools : interact with libreoffice.
-    - app-bot-for-flask : a simple flask framework for web page interaction.
-    - optimization : study notes of optimization theory and repository of related programs.
-    - market-sentiment : sentiment analysis based on text to calculate market sentiment score.
-    - web-scrap-for-crypto-news : design a web crawler to collect data from bitcoin news.
-    - spam-filter : spam filtering.
-    - binance-bot : machine learning strategies via binance exchange.
+    - [snake](https://github.com/geomuse/snake) : ...
+    - [temp-email](https://github.com/geomuse/temp-email) : ...
+    - [numeric-analysis](https://github.com/geomuse/numeric-analysis) : study notes of numeric-analysis and repository of related programs.
+    - [monitor-data-collection-bot](https://github.com/geomuse/monitor-data-collection-bot) : anti web crawler technology.
+    - [text-filter](https://github.com/geomuse/text-filter) : create a simple search base on re.
+    - [libreoffice-tools](https://github.com/geomuse/libreoffice-tools) : interact with libreoffice.
+    - [app-bot-for-flask](https://github.com/geomuse/app-bot-for-flask) : a simple flask framework for web page interaction.
+    - [optimization](https://github.com/geomuse/optimization) : study notes of optimization theory and repository of related programs.
+    - [market-sentiment](https://github.com/geomuse/market-sentiment) : sentiment analysis based on text to calculate market sentiment score.
+    - [web-scrap-for-crypto-news](https://github.com/geomuse/web-scrap-for-crypto-news) : design a web crawler to collect data from bitcoin news.
+    - [spam-filter](https://github.com/geomuse/spam-filter) : spam filtering.
+    - [binance-bot](https://github.com/geomuse/binance-bot) : machine learning strategies via binance exchange.
  
 # github stats
 
