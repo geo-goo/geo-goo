@@ -5,6 +5,7 @@ major : Financial Engineering | Data Science
 # public
 
 - python component ( sort by last updated ) :
+    - [streamlit](https://github.com/geomuse/streamlit) : create the project smilar shiny.
     - [snake](https://github.com/geomuse/snake) : ...
     - [temp-email](https://github.com/geomuse/temp-email) : ...
     - [numeric-analysis](https://github.com/geomuse/numeric-analysis) : study notes of numeric-analysis and repository of related programs.
