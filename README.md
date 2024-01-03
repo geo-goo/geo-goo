@@ -2,8 +2,6 @@
 
 major : Financial Engineering | Data Science
 
-# public
-
 - python component ( sort by last updated ) :
     - [gnews](https://github.com/geomuse/gnews) : ...
     - [streamlit](https://github.com/geomuse/streamlit) : create the project smilar shiny.
