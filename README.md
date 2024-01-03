@@ -1,10 +1,11 @@
-**author : geo**
+**author : geo | geomuse**
 
 major : Financial Engineering | Data Science
 
 # public
 
 - python component ( sort by last updated ) :
+    - [gnews](https://github.com/geomuse/gnews) : ...
     - [streamlit](https://github.com/geomuse/streamlit) : create the project smilar shiny.
     - [snake](https://github.com/geomuse/snake) : ...
     - [temp-email](https://github.com/geomuse/temp-email) : ...
