@@ -6,8 +6,8 @@ major : Financial Engineering | Data Science
     - [gnews china taiwan](https://github.com/geomuse/gnews_china_taiwan) : 建立新闻过滤器.
     - [data_collection_status](https://github.com/geomuse/data_collection_status) : 建立新闻过滤器.
     - [gnews](https://github.com/geomuse/gnews) : 建立新闻过滤器.
-    - [streamlit](https://github.com/geomuse/streamlit) : 建立shiny互动式网页.
-    - [snake](https://github.com/geomuse/snake) : 建立snake的互动游戏并且学习reinforcement learning.
+    - [streamlit](https://github.com/geomuse/streamlit) : 建立 shiny 互动式网页.
+    - [snake](https://github.com/geomuse/snake) : 建立 snake 的互动游戏并且学习 reinforcement learning.
     - [temp-email](https://github.com/geomuse/temp-email) : 建立temp email.
     - [numeric-analysis](https://github.com/geomuse/numeric-analysis) : 基于数值分析衍生应用.
     - [monitor-data-collection-bot](https://github.com/geomuse/monitor-data-collection-bot) : 尝试监控自身系统.
