@@ -3,6 +3,7 @@
 major : Financial Engineering | Data Science
 
 - python component ( sort by last updated ) :
+    - [math_game](https://github.com/geomuse/math_game) : 数学小游戏.
     - [novel_jieba](https://github.com/geomuse/novel_jieba) : 结巴使用.     
     - [gnews china taiwan](https://github.com/geomuse/gnews_china_taiwan) : 建立新闻过滤器.
     - [data_collection_status](https://github.com/geomuse/data_collection_status) : 建立新闻过滤器.
