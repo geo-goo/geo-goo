@@ -3,6 +3,7 @@
 major : Financial Engineering | Data Science
 
 - python component ( sort by last updated ) :
+    - [mongodb-frame-work](https://github.com/geomuse/mongodb_frame_work) : mongodb frame work.
     - [algo](https://github.com/geomuse/algo) : 演算法.
     - [math-game](https://github.com/geomuse/math_game) : 数学小游戏.
     - [novel-jieba](https://github.com/geomuse/novel_jieba) : 结巴使用.     
