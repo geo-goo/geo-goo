@@ -1,4 +1,4 @@
-**author : geo | geomuse**
+**author : geo | geomuse | theo**
 
 major : Financial Engineering | Data Science
 
