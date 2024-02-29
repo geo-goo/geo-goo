@@ -1,7 +1,8 @@
 **author : geo | theo | tho | geomuse**
 
-major : Financial Engineering | Data Science
-email  : boonhong565059@gmail.com | geomuseworkteam@gmail.com
+**major : Financial Engineering | Data Science**
+
+**email  : boonhong565059@gmail.com | geomuseworkteam@gmail.com**
 
 - python component ( sort by last updated ) :
     - [mongodb-frame-work](https://github.com/geomuse/mongodb_frame_work) : mongodb frame work.
