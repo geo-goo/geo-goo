@@ -1,15 +1,39 @@
-**author : geo | theo | tho | geomuse**
+**author : geo | theo | geomuse**
 
 **major : Financial Engineering | Data Science**
 
-**email  : boonhong565059@gmail.com | geomuseworkteam@gmail.com**
+**email : boonhong565059@gmail.com | geomuseworkteam@gmail.com** 
 
-- python component ( sort by last updated ) :
-    - [binanace trading](https://github.com/geomuse/binance_trading) : binance trading.
+# fields 
+
+- financial engineering
+- data visualization
+- quantitative trading robot
+- information security
+- text mining
+- web scraping
+- web development
+- app development
+- machine learning
+- optimization
+- game development
+
+# anonymous(private)
+
+- python component (sort by last updated) :
+    - [financial-engineering](https://github.com/geomuse/financial-engineering) : 金融工程研究目录. 
+    - [ftrade](https://github.com/geomuse/ftrade) : 比特币量化交易.
+    - anonymous-defense : 存放匿名防御工具.
+    - [download-china-money](https://github.com/geomuse/download-china-money) : 批量下载china money.
+
+# public
+
+- python component (sort by last updated) :
+    - [volatility_smile](https://github.com/geomuse/volatility_smile) : volatility smile.
     - [mongodb-frame-work](https://github.com/geomuse/mongodb_frame_work) : mongodb frame work.
     - [algo](https://github.com/geomuse/algo) : 演算法.
     - [math-game](https://github.com/geomuse/math_game) : 数学小游戏.
-    - [novel-jieba](https://github.com/geomuse/novel_jieba) : 结巴使用.     
+    - [novel-jieba](https://github.com/geomuse/novel_jieba) : 结巴使用. 
     - [gnews-china-taiwan](https://github.com/geomuse/gnews_china_taiwan) : 建立新闻过滤器.
     - [data-collection-status](https://github.com/geomuse/data_collection_status) : 建立新闻过滤器.
     - [gnews](https://github.com/geomuse/gnews) : 建立新闻过滤器.
@@ -26,7 +50,7 @@
     - [web-scrap-for-crypto-news](https://github.com/geomuse/web-scrap-for-crypto-news) : design a web crawler to collect data from bitcoin news.
     - [spam-filter](https://github.com/geomuse/spam-filter) : spam filtering.
     - [binance-bot](https://github.com/geomuse/binance-bot) : machine learning strategies via binance exchange.
- 
+
 # github stats
 
 <p><img align="left" width='300' height='195' src="https://github-readme-stats.vercel.app/api/top-langs/?username=geomuse&count_private=true&show_icons=true&layout=compact" alt="geo"/></p>
