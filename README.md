@@ -24,12 +24,12 @@
     - [financial-engineering](https://github.com/geomuse/financial-engineering) : 金融工程研究目录. 
     - [ftrade](https://github.com/geomuse/ftrade) : 比特币量化交易.
     - anonymous-defense : 存放匿名防御工具.
-    - [download-china-money](https://github.com/geomuse/download-china-money) : 批量下载china money.
 
 # public
 
 - python component (sort by last updated) :
     - [volatility_smile](https://github.com/geomuse/volatility_smile) : volatility smile.
+    - [download-china-money](https://github.com/geomuse/download-china-money) : 批量下载china money.
     - [mongodb-frame-work](https://github.com/geomuse/mongodb_frame_work) : mongodb frame work.
     - [algo](https://github.com/geomuse/algo) : 演算法.
     - [math-game](https://github.com/geomuse/math_game) : 数学小游戏.
