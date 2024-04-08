@@ -5,6 +5,7 @@
 **email  : boonhong565059@gmail.com | geomuseworkteam@gmail.com**
 
 - python component ( sort by last updated ) :
+    - [binanace trading](https://github.com/geomuse/binance_trading) : binance trading.
     - [mongodb-frame-work](https://github.com/geomuse/mongodb_frame_work) : mongodb frame work.
     - [algo](https://github.com/geomuse/algo) : 演算法.
     - [math-game](https://github.com/geomuse/math_game) : 数学小游戏.
