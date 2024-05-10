@@ -8,22 +8,6 @@
 
 - financial engineering
 - data visualization
-- quantitative trading robot
-- information security
-- text mining
-- web scraping
-- web development
-- app development
-- machine learning
-- optimization
-- game development
-
-# anonymous(private)
-
-- python component (sort by last updated) :
-    - [financial-engineering](https://github.com/geomuse/financial-engineering) : 金融工程研究目录. 
-    - [ftrade](https://github.com/geomuse/ftrade) : 比特币量化交易.
-    - anonymous-defense : 存放匿名防御工具.
 
 # public
 
