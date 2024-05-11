@@ -4,11 +4,6 @@
 
 **email : boonhong565059@gmail.com | geomuseworkteam@gmail.com** 
 
-# fields 
-
-- financial engineering
-- data visualization
-
 # public
 
 - python component (sort by last updated) :
