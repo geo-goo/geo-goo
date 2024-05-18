@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="geo">
+    
+    <title>
+        
+            python 进阶笔记 |
+        
+        g
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+    
+<link rel="stylesheet" href="/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/brands.min.css">
+
+    
+    <script class="keep-theme-configurations">
+    const KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"en","path":"search.json"}
+    KEEP.theme_config = {"base_info":{"primary_color":"#6dc9b8","title":"g","author":"geo"},"menu":{"home":"/","about":"/about"},"first_screen":{"enable":true,"background_img":"/images/bg.svg","background_img_dark":"/images/bg.svg","description":"Work Life Balance.","hitokoto":false},"social_contact":{"enable":false,"links":{"github":"https://github.com/geomuse","weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null}},"scroll":{"progress_bar":true,"percent":false,"hide_header":true},"home":{"announcement":null,"category":true,"tag":false,"post_datetime":"updated"},"post":{"author_badge":{"enable":false,"level_badge":false},"word_count":{"wordcount":false,"min2read":false},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":false,"share":false,"reward":{"enable":false,"img_link":null,"text":null}},"code_block":{"tools":{"enable":false,"style":"default"},"highlight_theme":"default"},"toc":{"enable":false,"number":false,"expand_all":false,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":false,"site_uv":false,"site_pv":false,"page_pv":false}},"local_search":{"enable":true,"preload":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.21"},"waline":{"server_url":null,"reaction":false,"version":2},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":false},"cdn":{"enable":false,"provider":"cdnjs"},"pjax":{"enable":false},"footer":{"since":2023,"word_count":false,"icp":{"enable":false,"record_code":null,"url":"https://beian.miit.gov.cn"},"site_deploy":{"enable":true,"provider":"github","url":null},"shields_style":{"enable":false,"custom":[{"link_url":null,"img_url":null}]}},"inject":{"enable":false,"css":[null],"js":[null]},"root":"","source_data":{},"version":"4.1.1"}
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"}
+    KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"}
+    KEEP.language_copy_copyright = {"copy":"Copy copyright info","copied":"Copied","title":"Original post title","author":"Original post author","link":"Original post link"}
+  </script>
+<meta name="generator" content="Hexo 7.1.1"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+</div>
+
+
+
+<main class="page-container border-box">
+    <!-- home first screen  -->
+    
+
+    <!-- page content -->
+    <div class="page-main-content border-box">
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="border-box header-content">
+        <div class="left border-box">
+            
+            <a class="site-name border-box" href="/">
+               g
+            </a>
+        </div>
+
+        <div class="right border-box">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                
+                                HOME
+                            </a>
+                        </li>
+                    
+                        
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                
+                                ABOUT
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas search fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/"
+                    >HOME</a>
+                </li>
+            
+                
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about"
+                    >ABOUT</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle border-box">
+
+            <div class="main-content border-box">
+                
+
+                    
+<div class="fade-in-down-animation">
+    <div class="post-page-container border-box">
+        <div class="post-content-container border-box">
+            
+
+            <div class="post-content-bottom border-box">
+                
+                    <div class="post-title">
+                        python 进阶笔记
+                    </div>
+                
+
+                
+                    <div class="post-header border-box">
+                        
+                        <div class="info-box">
+                            <div class="author border-box">
+                                <span class="name">geo</span>
+                                
+                            </div>
+                            <div class="meta-info border-box">
+                                
+
+<div class="post-meta-info-container border-box post">
+    <div class="post-meta-info border-box">
+        
+
+        
+            <span class="meta-info-item post-create-date">
+                <i class="icon fa-solid fa-calendar-plus"></i>&nbsp;
+                <span class="datetime">2024-04-18 00:00:00</span>
+            </span>
+
+            <span class="meta-info-item post-update-date">
+                <i class="icon fa-solid fa-file-pen"></i>&nbsp;
+                <span class="datetime" data-updated="Thu Apr 18 2024 15:13:23 GMT+0800">2024-04-18 15:13:23</span>
+            </span>
+        
+
+        
+
+        
+            <span class="post-tag meta-info-item border-box">
+                <ul class="post-tag-ul">
+                    
+                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/tags/python/">python</a></li>
+                        
+                    
+                </ul>
+            </span>
+        
+
+        
+        
+        
+        
+    </div>
+
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <div class="post-content keep-markdown-body">
+                    
+
+                    <h1 id="路径依赖"><a href="#路径依赖" class="headerlink" title="路径依赖."></a>路径依赖.</h1><h2 id="在Python中-可以直接设定工作目录"><a href="#在Python中-可以直接设定工作目录" class="headerlink" title="在Python中,可以直接设定工作目录."></a>在Python中,可以直接设定工作目录.</h2><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os , sys</span><br><span class="line">current_dir = os.path.dirname(os.path.abspath(__file__))</span><br><span class="line">path = <span class="string">'/home/geo/Downloads/geo'</span></span><br><span class="line">sys.path.append(path)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> notification_bot.telegram_chat <span class="keyword">import</span> telegram_send</span><br><span class="line"><span class="keyword">from</span> notification_bot.loguru_notification <span class="keyword">import</span> loguru_notf</span><br><span class="line"><span class="keyword">from</span> ml_bot.data_feature_eng <span class="keyword">import</span> df_feature_eng , df_select</span><br><span class="line"><span class="keyword">from</span> ml_bot.data_reports <span class="keyword">import</span> df_reports</span><br><span class="line"></span><br><span class="line">logger = loguru_notf(current_dir)</span><br><span class="line">logger.add(<span class="string">'bar_forecast_for_dep'</span>)</span><br><span class="line">filename = <span class="string">'{current_dir}/trade_data/ETHUSDT.csv'</span></span><br></pre></td></tr></table></figure>
+
+<!-- ## 在Python中,可以使用`geo`定义的方法.
+
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line">sys.path.append(path)</span><br><span class="line"><span class="keyword">from</span> notification_bot.telegram_chat <span class="keyword">import</span> telegram_bot</span><br><span class="line"><span class="keyword">from</span> notification_bot.loguru_notification <span class="keyword">import</span> loguru_notf</span><br></pre></td></tr></table></figure>
+
+<p>后呼叫相关函数.</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">loguru_notf(current_dir).add(<span class="string">&#x27;bar_forecast&#x27;</span>)</span><br><span class="line">``` --&gt;</span><br><span class="line"></span><br><span class="line"><span class="comment">## 在Python中,可以使用定义执行目录路径.</span></span><br><span class="line"></span><br><span class="line">```py</span><br><span class="line"><span class="keyword">import</span> os , sys</span><br><span class="line">current_dir = os.path.dirname(os.path.abspath(__file__))</span><br><span class="line">path = os.path.join(current_dir, <span class="string">&quot;..&quot;</span>)</span><br><span class="line">sys.path.append(path)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> option.black_scholes <span class="keyword">import</span> european_option</span><br></pre></td></tr></table></figure>
+
+<h2 id="在Python中-可以使用定义相对的路径"><a href="#在Python中-可以使用定义相对的路径" class="headerlink" title="在Python中,可以使用定义相对的路径."></a>在Python中,可以使用定义相对的路径.</h2><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line">current_dir = os.path.dirname(os.path.abspath(__file__))</span><br><span class="line">log = os.path.join(current_dir,<span class="string">&#x27;log/error.log&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> loguru <span class="keyword">import</span> logger</span><br><span class="line">logger.add(log,level=<span class="string">&#x27;INFO&#x27;</span>, rotation=<span class="string">&#x27;10 MB&#x27;</span>, <span class="built_in">format</span>=<span class="string">&#x27;&#123;time:YYYY-MM-DD HH:mm:ss.SSS&#125; | &#123;message&#125;&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<h1 id="判断数据类型"><a href="#判断数据类型" class="headerlink" title="判断数据类型."></a>判断数据类型.</h1><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="string">&quot;Hello&quot;</span></span><br><span class="line"><span class="keyword">if</span> <span class="built_in">isinstance</span>(x, (<span class="built_in">str</span>, <span class="built_in">bytes</span>)):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;x is a string or bytes&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;x is not a string or bytes&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>支持多类型例如继承的类等.</p>
+<h1 id="match"><a href="#match" class="headerlink" title="match."></a>match.</h1><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> mode <span class="keyword">in</span> (<span class="string">&#x27;sample&#x27;</span>,<span class="string">&#x27;human&#x27;</span> , <span class="string">&#x27;h&#x27;</span> ,<span class="string">&#x27;rl&#x27;</span>):</span><br><span class="line">    <span class="keyword">match</span> mode :</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&#x27;sample&#x27;</span>:</span><br><span class="line">            <span class="keyword">while</span> <span class="keyword">not</span> done:</span><br><span class="line">                observation, reward, done, _ = self.random()</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&#x27;human&#x27;</span> | <span class="string">&#x27;h&#x27;</span>: </span><br><span class="line">            <span class="keyword">while</span> <span class="keyword">not</span> done:</span><br><span class="line">                observation, reward, done, _ = self.run()</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&#x27;rl&#x27;</span> :</span><br><span class="line">            <span class="keyword">while</span> <span class="keyword">not</span> done:</span><br><span class="line">                next_observation , _ , done , _ = self.rl_run(observation)</span><br><span class="line">                self.render()</span><br><span class="line">                observation = next_observation</span><br></pre></td></tr></table></figure>
+
+
+<h1 id="列表"><a href="#列表" class="headerlink" title="列表."></a>列表.</h1><h2 id="在Python中-可以使用pop-enumerate进行迭代"><a href="#在Python中-可以使用pop-enumerate进行迭代" class="headerlink" title="在Python中,可以使用pop,enumerate进行迭代."></a>在Python中,可以使用<code>pop</code>,<code>enumerate</code>进行迭代.</h2><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">ips = [<span class="number">0.1</span>,<span class="number">1</span>,<span class="number">13</span>,<span class="number">124</span>,<span class="number">115</span>,<span class="string">&#x27;failed&#x27;</span>,<span class="number">16</span>,<span class="number">77</span>,<span class="number">87</span>]</span><br><span class="line">ips = [[<span class="number">1</span>,<span class="number">1</span>],[<span class="number">1</span>,<span class="string">&#x27;failed&#x27;</span>],[<span class="number">1</span>,<span class="number">2</span>],[<span class="number">1</span>,<span class="number">8</span>]]</span><br><span class="line"><span class="keyword">for</span> n , ip <span class="keyword">in</span> <span class="built_in">enumerate</span>(ips):</span><br><span class="line">    <span class="keyword">try</span> : </span><br><span class="line">        ip[<span class="number">1</span>] += <span class="number">1</span></span><br><span class="line">    <span class="keyword">except</span> :</span><br><span class="line">        ip = ips[n+<span class="number">1</span>]</span><br><span class="line">        ip[<span class="number">1</span>] += <span class="number">1</span></span><br><span class="line">        ips.pop(n+<span class="number">1</span>)</span><br><span class="line">    <span class="keyword">finally</span> :</span><br><span class="line">        <span class="built_in">print</span>(ip)</span><br></pre></td></tr></table></figure>
+
+<p>output : </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[1, 2]</span><br><span class="line">[1, 3]</span><br><span class="line">[1, 9]</span><br></pre></td></tr></table></figure>
+
+<h2 id="在Python中-可以使用list-map进行优化"><a href="#在Python中-可以使用list-map进行优化" class="headerlink" title="在Python中,可以使用list,map进行优化."></a>在Python中,可以使用<code>list</code>,<code>map</code>进行优化.</h2><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">my_pets = [<span class="string">&#x27;alfred&#x27;</span>, <span class="string">&#x27;tabitha&#x27;</span>, <span class="string">&#x27;william&#x27;</span>, <span class="string">&#x27;arla&#x27;</span>]</span><br><span class="line">uppered_pets = []</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> pet <span class="keyword">in</span> my_pets:</span><br><span class="line">    pet_ = pet.upper()</span><br><span class="line">    uppered_pets.append(pet_)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(uppered_pets)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">my_pets = [<span class="string">&#x27;alfred&#x27;</span>, <span class="string">&#x27;tabitha&#x27;</span>, <span class="string">&#x27;william&#x27;</span>, <span class="string">&#x27;arla&#x27;</span>]</span><br><span class="line"></span><br><span class="line">uppered_pets = <span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">str</span>.upper, my_pets))</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(uppered_pets)</span><br></pre></td></tr></table></figure>
+
+<h2 id="在Python中-可以使用海象-operator"><a href="#在Python中-可以使用海象-operator" class="headerlink" title="在Python中,可以使用海象 operator."></a>在Python中,可以使用海象 operator.</h2><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 以前的写法</span></span><br><span class="line">data = get_data()</span><br><span class="line"><span class="keyword">while</span> data:</span><br><span class="line">    process(data)</span><br><span class="line">    data = get_data()</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 使用walrus operator的写法</span></span><br><span class="line"><span class="keyword">while</span> (data := get_data()):</span><br><span class="line">    process(data)</span><br></pre></td></tr></table></figure>
+
+<p><code>:=</code> 是一种被称为“walrus operator”（海象运算符）的表达式。它的主要作用是允许你在表达式中同时进行赋值和返回值操作。</p>
+<p>例如，使用 <code>:=</code> 可以将一个表达式的计算结果赋值给变量，同时使用这个结果进行比较或其他操作，而无需重复计算.</p>
+<h2 id="在Python中-可以使用list-map进行优化可以叠很多层"><a href="#在Python中-可以使用list-map进行优化可以叠很多层" class="headerlink" title="在Python中,可以使用list,map进行优化可以叠很多层."></a>在Python中,可以使用<code>list</code>,<code>map</code>进行优化可以叠很多层.</h2><p>如果第三参数没有值了就会停止. <code>ex : range(1,2)</code></p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">circle_areas = [<span class="number">3.56773</span>, <span class="number">5.57668</span>, <span class="number">4.00914</span>, <span class="number">56.24241</span>, <span class="number">9.01344</span>, <span class="number">32.00013</span>]</span><br><span class="line"></span><br><span class="line">result = <span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">round</span>, circle_areas, <span class="built_in">range</span>(<span class="number">1</span>, <span class="number">7</span>)))</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(result)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[3.6, 5.58, 4.009, 56.2424, 9.01344, 32.00013]</span><br></pre></td></tr></table></figure>
+
+<h1 id="解包"><a href="#解包" class="headerlink" title="解包."></a>解包.</h1><h2 id="在Python中-可以用-運算符可以用於解包元組或列表"><a href="#在Python中-可以用-運算符可以用於解包元組或列表" class="headerlink" title="在Python中,可以用*運算符可以用於解包元組或列表."></a>在Python中,可以用<code>*</code>運算符可以用於解包元組或列表.</h2><p>這意味著它可以將元組或列表中的元素解包（展開）成單獨的變數。當解包時，<code>*x</code>用於捕獲所有剩餘的元素。</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 解包元組</span></span><br><span class="line">t = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>)</span><br><span class="line">a, b, *rest = t</span><br><span class="line"><span class="built_in">print</span>(a, b)  <span class="comment"># Output: 1 2</span></span><br><span class="line"><span class="built_in">print</span>(rest)  <span class="comment"># Output: [3, 4, 5]</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 解包列表</span></span><br><span class="line">lst = [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>, <span class="number">50</span>]</span><br><span class="line">x, y, *remaining = lst</span><br><span class="line"><span class="built_in">print</span>(x, y)  <span class="comment"># Output: 10 20</span></span><br><span class="line"><span class="built_in">print</span>(remaining)  <span class="comment"># Output: [30, 40, 50]</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="在Python中-可以使用-args和-kwargs来接受任意数量的参数"><a href="#在Python中-可以使用-args和-kwargs来接受任意数量的参数" class="headerlink" title="在Python中,可以使用*args和**kwargs来接受任意数量的参数."></a>在Python中,可以使用<code>*args</code>和<code>**kwargs</code>来接受任意数量的参数.</h2><h3 id="args"><a href="#args" class="headerlink" title="*args"></a>*args</h3><p>使用<code>*args</code>参数可以接受任意数量的位置参数，它们将作为一个元组（tuple）传递给函数。你可以通过在函数定义时在参数前加上<code>*</code>来使用<code>*args</code>。</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">my_function</span>(<span class="params">*args</span>):</span><br><span class="line">    <span class="keyword">for</span> arg <span class="keyword">in</span> args:</span><br><span class="line">        <span class="built_in">print</span>(arg)</span><br><span class="line"></span><br><span class="line">my_function(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="string">&#x27;four&#x27;</span>, <span class="string">&#x27;five&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>output : </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">four</span><br><span class="line">five</span><br></pre></td></tr></table></figure>
+
+<h3 id="kwargs"><a href="#kwargs" class="headerlink" title="**kwargs"></a>**kwargs</h3><p>使用<code>**kwargs</code>参数可以接受任意数量的关键字参数，它们将作为一个字典（dictionary）传递给函数。你可以通过在函数定义时在参数前加上<code>**</code>来使用<code>**kwargs</code>。</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">df.pct_change()</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">my_function</span>(<span class="params">**kwargs</span>):</span><br><span class="line">    <span class="keyword">for</span> key, value <span class="keyword">in</span> kwargs.items():</span><br><span class="line">        <span class="built_in">print</span>(key, value)</span><br><span class="line"></span><br><span class="line">my_function(name=<span class="string">&#x27;Alice&#x27;</span>, age=<span class="number">25</span>, city=<span class="string">&#x27;New York&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>output : </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">name Alice</span><br><span class="line">age 25</span><br><span class="line">city New York</span><br></pre></td></tr></table></figure>
+
+<h2 id="在Python中-可以使用自定义变数-numbers收集收集不定數量的位置參數"><a href="#在Python中-可以使用自定义变数-numbers收集收集不定數量的位置參數" class="headerlink" title="在Python中,可以使用自定义变数*numbers收集收集不定數量的位置參數."></a>在Python中,可以使用自定义变数<code>*numbers</code>收集收集不定數量的位置參數.</h2><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">sum_numbers</span>(<span class="params">*numbers</span>):</span><br><span class="line">    total = <span class="number">0</span></span><br><span class="line">    <span class="keyword">for</span> num <span class="keyword">in</span> numbers:</span><br><span class="line">        total += num</span><br><span class="line">    <span class="keyword">return</span> total</span><br><span class="line"></span><br><span class="line">result = sum_numbers(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>)</span><br><span class="line"><span class="built_in">print</span>(result)  <span class="comment"># Output: 15，傳入的位置參數被收集成 (1, 2, 3, 4, 5) 的元組</span></span><br></pre></td></tr></table></figure>
+
+<!-- # R studio. -->
+<h2 id="在在Python中-使用filter"><a href="#在在Python中-使用filter" class="headerlink" title="在在Python中,使用filter."></a>在在Python中,使用<code>filter</code>.</h2><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 定义一个函数，用于过滤条件</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">is_even</span>(<span class="params">number</span>):</span><br><span class="line">    <span class="keyword">return</span> number % <span class="number">2</span> == <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建一个列表</span></span><br><span class="line">numbers = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>, <span class="number">10</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 filter 函数进行过滤</span></span><br><span class="line">filtered_numbers = <span class="built_in">filter</span>(is_even, numbers)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 将结果转换为列表（在 Python 3 中 filter 返回的是迭代器）</span></span><br><span class="line">result_list = <span class="built_in">list</span>(filtered_numbers)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 打印过滤后的列表</span></span><br><span class="line"><span class="built_in">print</span>(result_list)</span><br></pre></td></tr></table></figure>
+
+<h1 id="函数"><a href="#函数" class="headerlink" title="函数."></a>函数.</h1><h2 id="在Python中-使用lambda和def应用场景以及资源耗损"><a href="#在Python中-使用lambda和def应用场景以及资源耗损" class="headerlink" title="在Python中,使用lambda和def应用场景以及资源耗损."></a>在Python中,使用<code>lambda</code>和<code>def</code>应用场景以及资源耗损.</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">    语法形式：</span><br><span class="line">        lambda 函数是一种匿名函数，它使用简洁的语法形式定义，没有函数名，可以直接使用关键字 lambda，后跟参数列表和冒号，然后是表达式。例如：lambda x: x * 2。</span><br><span class="line">        def 函数是一种具名函数，需要使用关键字 def，后跟函数名、参数列表和冒号，然后是函数体。例如：def multiply(x): return x * 2。</span><br><span class="line"></span><br><span class="line">    简洁性：</span><br><span class="line">        lambda 函数适用于简单的函数逻辑，可以在一行代码中定义函数。</span><br><span class="line">        def 函数可以包含多行代码和复杂的逻辑。</span><br><span class="line"></span><br><span class="line">    可读性：</span><br><span class="line">        lambda 函数通常比较短小，适合用于简单的表达式或作为其他函数的参数。</span><br><span class="line">        def 函数具有函数名和函数体，可以提供更好的可读性和可维护性。</span><br><span class="line"></span><br><span class="line">    可调用性：</span><br><span class="line">        lambda 函数是表达式，可以直接在需要函数的地方调用，不需要定义函数名。</span><br><span class="line">        def 函数需要先定义，然后才能调用。</span><br><span class="line"></span><br><span class="line">    作用域：</span><br><span class="line">        lambda 函数的作用域只在其定义所在的表达式中，无法引用外部的变量。</span><br><span class="line">        def 函数可以访问并修改其所在作用域中的变量。</span><br><span class="line"></span><br><span class="line">总体来说，lambda 函数适用于简单的函数逻辑和一次性的使用场景，可以在需要时直接定义和调用，提供了更简洁的语法形式。def 函数则适用于复杂的逻辑和需要多次调用的函数，具有更好的可读性和可维护性。</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">    内存消耗：</span><br><span class="line">        lambda 函数通常比较轻量级，因为它们只是一次性的表达式，不需要在内存中维护函数名和其他函数对象的属性。因此，每次调用 lambda 函数时，内存消耗较小。</span><br><span class="line">        def 函数在内存中维护函数对象，包括函数名、参数默认值、函数体等。每次调用 def 函数时，都需要创建函数对象，并占用额外的内存。</span><br><span class="line"></span><br><span class="line">    代码执行速度：</span><br><span class="line">        lambda 函数的执行速度通常比 def 函数略快，因为它们没有额外的函数查找和属性访问开销。</span><br><span class="line">        def 函数在执行时需要查找函数名，并且可能涉及属性访问等操作，导致略微的执行速度下降。</span><br><span class="line"></span><br><span class="line">然而，这些差别在实际情况中可能非常微小，并且可能在大部分应用中可以忽略不计。函数的资源消耗往往取决于函数体内部的操作和算法复杂度，而不仅仅取决于函数的定义方式。因此，在考虑性能问题时，更重要的是关注函数体内的实际逻辑和算法效率，而不仅仅是函数定义的形式。</span><br></pre></td></tr></table></figure>
+
+<h1 id="异常处理"><a href="#异常处理" class="headerlink" title="异常处理."></a>异常处理.</h1><h2 id="在Python中-可以使用continue来ignore接下来的处理"><a href="#在Python中-可以使用continue来ignore接下来的处理" class="headerlink" title="在Python中,可以使用continue来ignore接下来的处理."></a>在Python中,可以使用continue来ignore接下来的处理.</h2><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">a , b = [<span class="number">1</span>,<span class="string">'2.'</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>] , [<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">5</span>,<span class="number">6</span>] </span><br><span class="line">li = []</span><br><span class="line"><span class="keyword">for</span> x , y <span class="keyword">in</span> <span class="built_in">zip</span>(a,b):</span><br><span class="line">    li.append((x,y))</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> ip , port <span class="keyword">in</span> li :</span><br><span class="line">    <span class="keyword">try</span> :</span><br><span class="line">        ip = ip.replace(<span class="string">'.'</span>,<span class="string">'s'</span>)</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f'error : <span class="subst">{e}</span>'</span>) </span><br><span class="line">        <span class="keyword">continue</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">"it's work."</span>)   </span><br></pre></td></tr></table></figure>
+
+<p>output : </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">error : 'int' object has no attribute 'replace'</span><br><span class="line">it's work.</span><br><span class="line">error : 'int' object has no attribute 'replace'</span><br><span class="line">error : 'int' object has no attribute 'replace'</span><br><span class="line">error : 'int' object has no attribute 'replace'</span><br><span class="line">error : 'int' object has no attribute 'replace'</span><br></pre></td></tr></table></figure>
+
+<h1 id="i-o"><a href="#i-o" class="headerlink" title="i/o"></a>i/o</h1><h2 id="在Python中-可以使用with解决读取文件"><a href="#在Python中-可以使用with解决读取文件" class="headerlink" title="在Python中,可以使用with解决读取文件."></a>在Python中,可以使用with解决读取文件.</h2><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">markdown_file_path = <span class="string">'/home/geo/Downloads/devscape/setup_bot/reports/input.md'</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(markdown_file_path,<span class="string">'r'</span>,encoding=<span class="string">'utf-8'</span>) <span class="keyword">as</span> f :</span><br><span class="line">    markdown_content = f.read()</span><br><span class="line">    elements = markdown_content.split(<span class="string">'\n'</span>)</span><br><span class="line">    <span class="keyword">for</span> element <span class="keyword">in</span> elements :</span><br><span class="line">        <span class="keyword">if</span> element != <span class="string">''</span> :</span><br><span class="line">            <span class="built_in">print</span>(element)</span><br></pre></td></tr></table></figure>
+                </div>
+                
+
+                <div class="post-bottom-tags-and-share border-box">
+                    <div>
+                        
+                            <ul class="post-tags-box border-box">
+                                
+                                    <li class="tag-item border-box">
+                                        <i class="icon fas fa-hashtag"></i>&nbsp;<a href="/tags/python/">python</a>
+                                    </li>
+                                
+                            </ul>
+                        
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+
+                
+
+                
+                    <div class="post-nav border-box">
+                        
+                            <div class="prev-post">
+                                <a class="prev"
+                                   rel="prev"
+                                   href="/2024/04/18/ref/python/pythom_third_party_package/"
+                                   title="python 第三方教学档案"
+                                >
+                                    <span class="left arrow-icon flex-center">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </span>
+                                    <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">python 第三方教学档案</span>
+                                        <span class="post-nav-item">Prev posts</span>
+                                    </span>
+                                </a>
+                            </div>
+                        
+                        
+                            <div class="next-post">
+                                <a class="next"
+                                   rel="next"
+                                   href="/2024/04/18/ref/python/python_medium/"
+                                   title="python 想法笔记"
+                                >
+                                    <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">python 想法笔记</span>
+                                        <span class="post-nav-item">Next posts</span>
+                                    </span>
+                                    <span class="right arrow-icon flex-center">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        
+                    </div>
+                
+
+                
+                    
+
+
+
+
+
+
+                
+            </div>
+        </div>
+
+        
+    </div>
+</div>
+
+
+                
+            </div>
+        </div>
+
+        <div class="page-main-content-bottom border-box">
+            
+<footer class="footer border-box">
+    <div class="border-box website-info-box default">
+        
+            <div class="copyright-info info-item default">
+                &copy;&nbsp;<span>2023</span>&nbsp;-&nbsp;2024
+                
+                    &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/">geo</a>
+                
+            </div>
+
+            <div class="theme-info info-item default">
+                Powered by&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;&&nbsp;Theme&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>
+            </div>
+
+            
+
+            
+                
+                <div class="deploy-info info-item default">
+                    
+                        This site is deployed on <span class="tooltip" data-tooltip-content="GitHub Pages"><img src="/images/brands/github.png"></span>
+                    
+                </div>
+            
+        
+
+        <div class="count-item info-item default">
+            
+
+            
+
+            
+        </div>
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    <!-- post tools -->
+    
+        <div class="post-tools right-toc">
+            <div class="post-tools-container border-box">
+    <ul class="tools-list border-box">
+        <!-- PC TOC show toggle -->
+        
+
+        <!-- PC go comment -->
+        
+
+        <!-- PC full screen -->
+        <li class="tools-item flex-center full-screen">
+            <i class="fa-solid fa-expand"></i>
+        </li>
+    </ul>
+</div>
+
+        </div>
+    
+
+    <!-- side tools -->
+    <div class="side-tools">
+        <div class="side-tools-container border-box ">
+    <ul class="side-tools-list side-tools-show-handle border-box">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-toggle-theme-mode flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list border-box">
+        
+
+        
+
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+
+        <li class="tools-item tool-scroll-to-top flex-center show-arrow">
+            <i class="arrow fas fa-arrow-up"></i>
+            <span class="percent"></span>
+        </li>
+    </ul>
+</div>
+
+    </div>
+
+    <!-- image mask -->
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    <!-- local search -->
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="Search..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+    <!-- tablet toc -->
+    
+</main>
+
+
+
+<!-- common -->
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/toggle-theme.js"></script>
+
+<script src="/js/code-block.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+
+<!-- local-search -->
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+<!-- lazyload -->
+
+
+<div class="">
+    
+        <!-- post-helper -->
+        
+<script src="/js/post/post-helper.js"></script>
+
+
+        <!-- toc -->
+        
+
+        <!-- copyright-info -->
+        
+
+        <!-- share -->
+        
+    
+
+    <!-- categories page -->
+    
+
+    <!-- links page -->
+    
+
+    <!-- photos page -->
+    
+
+    <!-- tools page -->
+    
+</div>
+
+<!-- mermaid -->
+
+
+<!-- pjax -->
+
+
+
+</body>
+</html>
