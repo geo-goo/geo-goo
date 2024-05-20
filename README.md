@@ -7,6 +7,7 @@
 # obj
 
 - python component (sort by last updated) :
+    - [efficient frontier](https://github.com/geomuse/efficient_frontier) : efficient frontier.
     - [volatility_smile](https://github.com/geomuse/volatility_smile) : volatility smile.
     - [download-china-money](https://github.com/geomuse/download-china-money) : 批量下载china money.
     
